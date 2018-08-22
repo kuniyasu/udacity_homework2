@@ -84,17 +84,20 @@ The difference between the original data set and the augmented data set is the f
 
 My final model consisted of the following layers:
 
-| Layer         		|     Description	        					| 
+| Layer         		      |     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
-| RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
+| Input         		      | 32x32x3 RGB image   							| 
+| Convolution 5x5     	 | 1x1 stride, same padding, outputs 28x28x8 	|
+| RELU					             |												|
+| Max pooling	      	   | 2x2 stride,  outputs 14x14x8 				|
+| Convolution 5x5	      | 1x1 stride, same padding, outputs 10x10x16     |
+| RELU					             |												|
+| Max pooling	      	   | 2x2 stride,  outputs 5x5x16 				|
+| Flatten    	      	   | outputs 400 				|
+| Fully connected		     | outputs 200        									|
+| Fully connected		     | outputs 100        									|
+| Fully connected		     | outputs 43        									|
+| Softmax				           |         									|
  
 
 
