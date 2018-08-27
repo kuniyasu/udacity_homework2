@@ -131,8 +131,11 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image1.png] 
+![alt text][https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image2.png] 
+![alt text][https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image3.png] 
+![alt text][https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image4.png] 
+![alt text][https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image5.png] 
 
 The first image might be difficult to classify because ...
 
