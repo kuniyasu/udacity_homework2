@@ -143,13 +143,13 @@ The first image might be difficult to classify because ...
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| 	Prediction |	Truth |
+|:---:|:---:|
+| 	2 	|2   |
+| 	18 |	18 |
+| 	1 	|1   |
+| 	13 |	13 |
+| 	27 |	27 |
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
@@ -160,13 +160,13 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| 	Label ID  |	Label Name 	| Probability Softmax value| 
+|:----------:|:-----:|:-----:|
+| 	2 	       | Speed limit (50km/h)|  	9.999996e-01| 
+| 	5 	       | Speed limit (80km/h)|  	4.098541e-07| 
+| 	1 	       | Speed limit (30km/h)|  	2.018905e-17| 
+| 	6 	| End of speed limit (80km/h)|  	1.909201e-18| 
+| 	3 	| Speed limit (60km/h)|  	3.594470e-21| 
 
 
 For the second image ... 
