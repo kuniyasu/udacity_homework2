@@ -46,19 +46,24 @@ I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
 * The size of training set is ?
-Number of training examples = 34799
+
+Number of training examples = 34799. It can calculate to length of training image _np.array()_.
 
 * The size of the validation set is ?
-Number of validation examples = 4410
+
+Number of validation examples = 4410.  It can calculate to length of validation image _np.array()_.
 
 * The size of test set is ?
-Number of testing examples = 12630
+
+Number of testing examples = 12630.  It can calculate to length of test image _np.array()_.
 
 * The shape of a traffic sign image is ?
-Image data shape = (32, 32, 3)
+
+Image data shape = (32, 32, 3). ( _X_train[0].shape_ )
 
 * The number of unique classes/labels in the data set is ?
-Number of classes = 43
+
+Number of classes = 43.  It can calculate to pandas data structure index size.
 
 
 
