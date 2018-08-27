@@ -158,7 +158,10 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+- For the first image, the model is relatively sure that this is a steed limit sign (softmax is 9.999996e-01)
+
+![graph](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/graph_1.png)
+
 
 | 	Label ID  |	Label Name 	| Probability Softmax value| 
 |:----------:|:-----:|:-----:|
@@ -169,7 +172,53 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | 	3 	| Speed limit (60km/h)|  	3.594470e-21| 
 
 
-For the second image ... 
+- For the second image ... 
+
+![graph](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/graph_2.png)
+
+| 	Label ID  |	Label Name 	| Probability Softmax value| 
+|:----------:|:-----:|:-----:|
+|18 	|General caution 	|1.000000e+00|
+|26 	|Traffic signals 	|2.492923e-15|
+|27 	|Pedestrians 	|2.734097e-17|
+|4 	 |Speed limit (70km/h) 	|5.929795e-18|
+|33 	|Turn right ahead 	|5.518930e-21|
+
+- For the third image ... 
+
+![graph](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/graph_3.png)
+
+| 	Label ID  |	Label Name 	| Probability Softmax value| 
+|:----------:|:-----:|:-----:|
+|1 	|Speed limit (30km/h) 	|1.000000e+00|
+|5 	|Speed limit (80km/h) 	|1.691764e-12|
+|7 	|Speed limit (100km/h) |9.439109e-15|
+|2 	|Speed limit (50km/h) 	|1.936896e-16|
+|6 	|End of speed limit (80km/h) 	|5.602811e-19|
+
+- For the fourth image ... 
+
+![graph](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/graph_4.png)
+
+| 	Label ID  |	Label Name 	| Probability Softmax value| 
+|:----------:|:-----:|:-----:|
+|13| 	Yield 	|1.000000e+00|
+|12| 	Priority road 	|3.126491e-31|
+|	1| 	Speed limit (30km/h) 	|3.862392e-32|
+|	9| 	No passing 	|2.734379e-32|
+|25| 	Road work 	|1.629412e-32|
+
+- For the fifith image ... 
+
+![graph](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/graph_5.png)
+
+| 	Label ID  |	Label Name 	| Probability Softmax value| 
+|:----------:|:-----:|:-----:|
+|27| 	Pedestrians 	|9.999998e-01|
+|24| 	Road narrows on the right 	|1.944014e-07|
+|18| 	General caution 	|3.473278e-13|
+|11| 	Right-of-way at the next intersection 	|4.895877e-16|
+|28| 	Children crossing 	|1.022226e-18|
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
