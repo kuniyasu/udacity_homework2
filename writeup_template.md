@@ -38,6 +38,7 @@ Number of classes = 43.  It can calculate to pandas data structure index size.
 #### 2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. 
+
 ![alt text](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/image_load_test.png)
 
 ### Design and Test a Model Architecture
