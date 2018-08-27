@@ -170,4 +170,7 @@ For the second image ...
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
-![feature_image1]( https://github.com/kuniyasu/udacity_homework2/image/feature_stage1.png)
+![feature_image1](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/feature_stage1.png)
+
+![feature_image2](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/feature_stage2.png)
+
