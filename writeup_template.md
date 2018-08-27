@@ -209,7 +209,7 @@ The code for making predictions on my final model is located in the 11th cell of
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
-A feature image is almost dark in layer2. It means that the feture map is not effective. If we will input all image and the feture will be dark on every image, it is possible to drop down is effect.
+A feature image is almost dark in layer2. It means that the feture map is not effective. If we will input all image and the feture will be dark on every image, it is possible that drop down is effect.
 
 - Input Image
 
