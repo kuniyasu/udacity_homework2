@@ -10,36 +10,35 @@ You're reading it! and here is a link to my [project code](https://github.com/ud
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
+```python:
+# TODO: Number of training examples
+n_train = len(X_train)
 
-* The size of training set is ?
+# TODO: Number of validation examples
+n_validation = len(X_valid)
 
-Number of training examples = 34799. It can calculate to length of training image _np.array()_.
+# TODO: Number of testing examples.
+n_test = len(X_test)
 
-* The size of the validation set is ?
+# TODO: What's the shape of an traffic sign image?
+image_shape = X_train[0].shape
 
-Number of validation examples = 4410.  It can calculate to length of validation image _np.array()_.
+# TODO: How many unique classes/labels there are in the dataset.
+n_classes = df.index.size
 
-* The size of test set is ?
-
-Number of testing examples = 12630.  It can calculate to length of test image _np.array()_.
-
-* The shape of a traffic sign image is ?
-
-Image data shape = (32, 32, 3). ( _X_train[0].shape_ )
-
-* The number of unique classes/labels in the data set is ?
-
-Number of classes = 43.  It can calculate to pandas data structure index size.
-
+Number of training examples = 34799
+Number of validation examples = 4410
+Number of testing examples = 12630
+Image data shape = (32, 32, 3)
+Number of classes = 43
+```
 
 
 #### 2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. 
 
-![alt text](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/image_load_test.png)
+![alt text](https://github.com/kuniyasu/udacity_homework2/blob/master/image/train_data_load.png?raw=true)
 
 ### Design and Test a Model Architecture
 
