@@ -89,17 +89,22 @@ My final model consisted of the following layers:
 ![learn rate](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/learning_graph.png)
 
 
-- EPOCHS = 50
-- BATCH_SIZE = 32
-- rate = 0.001
-
+```python:
+EPOCHS = 50
+BATCH_SIZE = 32
+rate = 0.001
+```
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 My final model results were:
-- Training Accuracy = 0.998
-- Validation Accuracy = 0.952
-- Test Accuracy = 0.932
+
+
+```python:
+Training Accuracy = 0.998
+Validation Accuracy = 0.952
+Test Accuracy = 0.932
+```
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
