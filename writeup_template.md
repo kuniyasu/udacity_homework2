@@ -159,11 +159,11 @@ The code for making predictions on my final model is located in the 11th cell of
 
 | 	Label ID  |	Label Name 	| Probability Softmax value| 
 |:----------:|:-----:|:-----:|
-| 	2 	       | Speed limit (50km/h)|  	9.999996e-01| 
-| 	5 	       | Speed limit (80km/h)|  	4.098541e-07| 
-| 	1 	       | Speed limit (30km/h)|  	2.018905e-17| 
-| 	6 	| End of speed limit (80km/h)|  	1.909201e-18| 
-| 	3 	| Speed limit (60km/h)|  	3.594470e-21| 
+|	20 	|Dangerous curve to the right| 	1.000000e+00|
+|	23 	|Slippery road 	|4.580270e-32|
+|	10 	|No passing for vehicles over 3.5 metric tons |	3.948108e-32|
+|	38 	|Keep right |	2.748862e-33|
+|	19 	|Dangerous curve to the left |	4.866674e-34|
 
 
 - For the second image ... 
@@ -172,11 +172,11 @@ The code for making predictions on my final model is located in the 11th cell of
 
 | 	Label ID  |	Label Name 	| Probability Softmax value| 
 |:----------:|:-----:|:-----:|
-|18 	|General caution 	|1.000000e+00|
-|26 	|Traffic signals 	|2.492923e-15|
-|27 	|Pedestrians 	|2.734097e-17|
-|4 	 |Speed limit (70km/h) 	|5.929795e-18|
-|33 	|Turn right ahead 	|5.518930e-21|
+|	25| 	Road work |	1.000000e+00|
+|	20| 	Dangerous curve to the right |	1.380357e-37|
+|	19| 	Dangerous curve to the left |	1.193224e-37|
+| 	0| 	Speed limit (20km/h) |	0.000000e+00|
+| 	1| 	Speed limit (30km/h) |	0.000000e+00|
 
 - For the third image ... 
 
@@ -184,11 +184,11 @@ The code for making predictions on my final model is located in the 11th cell of
 
 | 	Label ID  |	Label Name 	| Probability Softmax value| 
 |:----------:|:-----:|:-----:|
-|1 	|Speed limit (30km/h) 	|1.000000e+00|
-|5 	|Speed limit (80km/h) 	|1.691764e-12|
-|7 	|Speed limit (100km/h) |9.439109e-15|
-|2 	|Speed limit (50km/h) 	|1.936896e-16|
-|6 	|End of speed limit (80km/h) 	|5.602811e-19|
+| 	18 |	General caution |	1.000000e+00|
+| 	27 |	Pedestrians |	3.816694e-10|
+| 	11 |	Right-of-way at the next intersection |	2.471945e-10|
+| 	26 |	Traffic signals |	1.551699e-11|
+| 	20 |	Dangerous curve to the right |	8.603734e-20|
 
 - For the fourth image ... 
 
@@ -196,11 +196,11 @@ The code for making predictions on my final model is located in the 11th cell of
 
 | 	Label ID  |	Label Name 	| Probability Softmax value| 
 |:----------:|:-----:|:-----:|
-|13| 	Yield 	|1.000000e+00|
-|12| 	Priority road 	|3.126491e-31|
-|	1| 	Speed limit (30km/h) 	|3.862392e-32|
-|	9| 	No passing 	|2.734379e-32|
-|25| 	Road work 	|1.629412e-32|
+| 	4 |	Speed limit (70km/h) 	|1.000000e+00|
+| 	8 |	Speed limit (120km/h) |	6.784295e-18|
+| 	1 |	Speed limit (30km/h) 	|1.464036e-18|
+| 	5 |	Speed limit (80km/h) 	|1.492091e-19|
+| 18 |	General caution 	|7.523510e-21|
 
 - For the fifith image ... 
 
@@ -208,11 +208,11 @@ The code for making predictions on my final model is located in the 11th cell of
 
 | 	Label ID  |	Label Name 	| Probability Softmax value| 
 |:----------:|:-----:|:-----:|
-|27| 	Pedestrians 	|9.999998e-01|
-|24| 	Road narrows on the right 	|1.944014e-07|
-|18| 	General caution 	|3.473278e-13|
-|11| 	Right-of-way at the next intersection 	|4.895877e-16|
-|28| 	Children crossing 	|1.022226e-18|
+| 	2 |	Speed limit (50km/h) |	1.000000e+00|
+| 	5 |	Speed limit (80km/h) |	2.607763e-10|
+| 	1 |	Speed limit (30km/h) |	8.203782e-15|
+| 	7 |	Speed limit (100km/h)| 6.448071e-15|
+| 	4 |	Speed limit (70km/h) |	3.995001e-23|
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
