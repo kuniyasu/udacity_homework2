@@ -125,12 +125,7 @@ If a well known architecture was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image1.png)
-![alt text](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image2.png)
-![alt text](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image3.png)
-![alt text](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image4.png)
-![alt text](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/test_image5.png)
-
+![new test](https://raw.githubusercontent.com/kuniyasu/udacity_homework2/master/image/new_test_image.png)
 The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
@@ -139,11 +134,11 @@ Here are the results of the prediction:
 
 | 	Prediction |	Truth |
 |:---:|:---:|
-| 	2 	|2   |
-| 	18 |	18 |
-| 	1 	|1   |
-| 	13 |	13 |
-| 	27 |	27 |
+|20 |	20|
+|25 |	25|
+|18 |	18|
+|	4 |	4|
+|	2 |	2|
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
